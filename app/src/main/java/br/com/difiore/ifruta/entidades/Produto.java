@@ -1,6 +1,8 @@
-package br.com.difiore.ifruta;
+package br.com.difiore.ifruta.entidades;
 
 import java.io.Serializable;
+
+import br.com.difiore.ifruta.entidades.Categoria;
 
 public class Produto implements Serializable {
 

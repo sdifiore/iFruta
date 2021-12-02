@@ -1,4 +1,4 @@
-package br.com.difiore.ifruta;
+package br.com.difiore.ifruta.entidades;
 
 public class Categoria {
 
