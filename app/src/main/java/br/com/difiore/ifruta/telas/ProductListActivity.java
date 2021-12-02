@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
+import br.com.difiore.ifruta.R;
+
 public class ProductListActivity extends AppCompatActivity {
 
     @Override

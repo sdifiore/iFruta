@@ -10,10 +10,16 @@
 		android:supportsRtl="true"
 		android:theme="@style/Theme.IFruta">
 		<activity
+			android:name=".telas.ProductListActivity"
+			android:exported="false" />
+		<activity
+			android:name=".telas.AreaClienteActivity"
+			android:exported="false" />
+		<activity
 			android:name=".ReloadDbActivity"
 			android:exported="false" />
 		<activity
-			android:name=".MainActivity"
+			android:name=".telas.MainActivity"
 			android:exported="true">
 			<intent-filter>
 				<action android:name="android.intent.action.MAIN" />
