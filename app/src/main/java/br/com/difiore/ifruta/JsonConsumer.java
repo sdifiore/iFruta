@@ -1,6 +1,5 @@
 package br.com.difiore.ifruta;
 
-import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
 import android.os.AsyncTask;
@@ -11,14 +10,13 @@ import java.util.List;
 
 public class JsonConsumer extends AsyncTask<String, Void, List<Post>> {
 
-    private Context context;
+    private ProgressDialog dialog;
     private ListView listView;
-}
+    private Context context;
 
-        @Override
-            protected void onPreExecute(){
-            dialog = ProgressDialog.show(context, "Um instante, reiniciando banco com valores padrão...");
-        }
+    public JsonConsumer(Context context, ListView listView) {
+        this.context = context;
+        this.listView = listView;
     }
 
     @Override
